@@ -1,4 +1,3 @@
-﻿
 // LABB 1
 
 string input = Console.ReadLine();
@@ -39,7 +38,6 @@ for (int i = 0; i < input.Length; i++)
             Console.WriteLine(input.Substring(j + 1));
 
             sum += double.Parse(output);
-
             break;
         }
         else if (!numbers.Contains(input[j]))
@@ -47,7 +45,6 @@ for (int i = 0; i < input.Length; i++)
             break;
         }
     }
-
 }
 
 Console.WriteLine("\nInput: " + input + "\nTotal: " + sum);
