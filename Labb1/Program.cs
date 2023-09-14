@@ -4,7 +4,6 @@
 string input = Console.ReadLine();
 Console.WriteLine("");
 
-string counter = String.Empty;
 double sum = 0;
 
 char[] numbers = "0123456789".ToCharArray();
@@ -38,8 +37,6 @@ for (int i = 0; i < input.Length; i++)
 
             Console.ResetColor();
             Console.WriteLine(input.Substring(j + 1));
-
-            counter += output;
 
             sum += double.Parse(output);
 
